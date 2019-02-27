@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		529817EE216F14D000F625A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 529817ED216F14D000F625A0 /* main.cpp */; };
+		52981805216F159700F625A0 /* ExpressionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52981803216F159700F625A0 /* ExpressionManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,23 @@
 /* Begin PBXFileReference section */
 		529817EA216F14D000F625A0 /* Lab 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lab 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		529817ED216F14D000F625A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		529817F4216F157200F625A0 /* key_file4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file4.txt; sourceTree = "<group>"; };
+		529817F5216F157200F625A0 /* key_file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file1.txt; sourceTree = "<group>"; };
+		529817F6216F157200F625A0 /* file5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file5.txt; sourceTree = "<group>"; };
+		529817F7216F157200F625A0 /* ExpressionManagerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionManagerInterface.h; sourceTree = "<group>"; };
+		529817F8216F157200F625A0 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = "<group>"; };
+		529817F9216F157200F625A0 /* file4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file4.txt; sourceTree = "<group>"; };
+		529817FA216F157200F625A0 /* key_file5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file5.txt; sourceTree = "<group>"; };
+		529817FB216F157300F625A0 /* file3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3.txt; sourceTree = "<group>"; };
+		529817FC216F157300F625A0 /* key_file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file2.txt; sourceTree = "<group>"; };
+		529817FD216F157300F625A0 /* check.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = check.sh; sourceTree = "<group>"; };
+		529817FE216F157300F625A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		529817FF216F157300F625A0 /* WindowsEndlines */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WindowsEndlines; sourceTree = "<group>"; };
+		52981800216F157300F625A0 /* file1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file1.txt; sourceTree = "<group>"; };
+		52981801216F157300F625A0 /* key_file3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key_file3.txt; sourceTree = "<group>"; };
+		52981802216F157300F625A0 /* file2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file2.txt; sourceTree = "<group>"; };
+		52981803216F159700F625A0 /* ExpressionManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExpressionManager.cpp; sourceTree = "<group>"; };
+		52981804216F159700F625A0 /* ExpressionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,24 @@
 		529817EC216F14D000F625A0 /* Lab 2 */ = {
 			isa = PBXGroup;
 			children = (
+				529817FD216F157300F625A0 /* check.sh */,
+				529817F8216F157200F625A0 /* Examples */,
+				529817F7216F157200F625A0 /* ExpressionManagerInterface.h */,
+				52981800216F157300F625A0 /* file1.txt */,
+				52981802216F157300F625A0 /* file2.txt */,
+				529817FB216F157300F625A0 /* file3.txt */,
+				529817F9216F157200F625A0 /* file4.txt */,
+				529817F6216F157200F625A0 /* file5.txt */,
+				529817F5216F157200F625A0 /* key_file1.txt */,
+				529817FC216F157300F625A0 /* key_file2.txt */,
+				52981801216F157300F625A0 /* key_file3.txt */,
+				529817F4216F157200F625A0 /* key_file4.txt */,
+				529817FA216F157200F625A0 /* key_file5.txt */,
+				529817FE216F157300F625A0 /* README.md */,
+				529817FF216F157300F625A0 /* WindowsEndlines */,
 				529817ED216F14D000F625A0 /* main.cpp */,
+				52981803216F159700F625A0 /* ExpressionManager.cpp */,
+				52981804216F159700F625A0 /* ExpressionManager.h */,
 			);
 			path = "Lab 2";
 			sourceTree = "<group>";
@@ -119,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529817EE216F14D000F625A0 /* main.cpp in Sources */,
+				52981805216F159700F625A0 /* ExpressionManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
